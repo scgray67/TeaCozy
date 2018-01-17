@@ -3,3 +3,37 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+body {
+  background-color: black;
+}
+
+/* Begin Header */
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 69px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nav span a {
+  color: seashell;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* End Header */
