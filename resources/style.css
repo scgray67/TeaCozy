@@ -87,7 +87,6 @@ header {
   flex-wrap: wrap;
   margin: auto;
   width: 1000px;
-
 }
 
 .teaphoto1 img {
@@ -108,6 +107,17 @@ header {
   padding: 10px 10px;
 }
 
+.teaphototext {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}
+
 .teaphoto4 img {
   width: 300px;
   height: 200px;
@@ -119,6 +129,14 @@ header {
   width: 300px;
   height: 200px;
   padding: 10px;
+  margin-right: 195px;
+}
+
+.teaphototext.four {
+  margin-left: 195px;
+}
+
+.teaphototext.five {
   margin-right: 195px;
 }
 
