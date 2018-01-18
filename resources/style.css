@@ -61,4 +61,24 @@ header {
   padding: 15px 15px;
 }
 
+.missioninfo h2 h4 {
+  opacity: 0.9;
+}
+
 /* End Mission Section */
+
+/* Begin Tea of the Month Section */
+
+.teamonthtext {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  padding-top: 65px;
+}
+
+
+/* End Tea of the Month Section */
