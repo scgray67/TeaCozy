@@ -21,20 +21,22 @@ header {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
   border-bottom: 1px solid seashell;
   background-color: black;
+  z-index: 5;
 }
 
 .logo img {
   height: 50px;
   padding-left: 10px;
+  opacity: 0.9;
 }
 
 .nav span a {
   color: seashell;
   padding-left: 10px;
   padding-right: 10px;
+  opacity: 0.9;
 }
 
 /* End Header */
