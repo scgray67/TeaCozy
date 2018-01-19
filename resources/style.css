@@ -160,6 +160,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-content: center;
   height: 500px;
   width: 1200px;
   margin: auto;
@@ -170,7 +171,6 @@ header {
 }
 
 .locations {
-  opacity: 0.9;
   margin: auto;
   width: 100%;
   height: 50px;
@@ -184,7 +184,44 @@ header {
   background-color: black;
   opacity: 1;
   text-align: center;
-  padding: 15px 20px 0px 20px;
+}
+
+.address p {
+  padding: 20px;
+}
+
+.address h3 {
+  padding: 20px;
 }
 
 /* End Locations Section */
+
+/* Begin Footer Section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+/* End Footer Section */
+
+/* Begin Copyright Section */
+
+.copyright {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: left;
+}
+
+/* End Copyright Section */
