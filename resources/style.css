@@ -155,7 +155,7 @@ header {
 .locationscontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   height: 500px;
   width: 1200px;
@@ -180,6 +180,7 @@ header {
   background-color: black;
   opacity: 1;
   text-align: center;
+  margin: 0px 20px 0px 20px;
 }
 
 .address p {
